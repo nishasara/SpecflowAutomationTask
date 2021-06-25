@@ -11,7 +11,7 @@ Scenario Outline: I would like to register an account in Skill Swap as a new use
 
    Examples: 
    | newuser | Firstname | Lastname | EmailAddress			 | Password | ConfirmPassword |
-   | True    | Zaaran    | Susan    | zaara12.susan@gmail.com |12345678  |12345678         |
+   | True    | Zaaran    | Susan    | zaara13.susan@gmail.com |12345678  |12345678         |
    
 
 @automation
@@ -25,4 +25,4 @@ Scenario Outline: I would like to register an account in Skill Swap with existin
 
    Examples: 
    | newuser | Firstname  | Lastname  | EmailAddress		  | Password | ConfirmPassword |
-   | False   | Zaaran     | Susan    | zaara12.susan@gmail.com |12345678  |12345678         |
+   | False   | Zaaran     | Susan    | zaara13.susan@gmail.com |12345678  |12345678         |
